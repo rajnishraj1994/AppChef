@@ -385,6 +385,8 @@ body#afui .splt {
 @media all {
   .header-bg {
     background-color: #666666;
+    background-image: linear-gradient(top, #1e5799 0%, #dd2a45 100%);
+    background-image: -webkit-linear-gradient(top, #1e5799 0%, #dd2a45 100%);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -462,4 +464,9 @@ label:empty {
 .tail-c {
   display: table-cell;
   width: 15px;
+}
+@media all {
+  .colorFont a {
+    color: #400000 !important;
+  }
 }
